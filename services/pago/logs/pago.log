@@ -1,0 +1,144 @@
+2026-05-23 17:10:12.725 [] INFO  cafeteria.pago.pago.PagoApplication - Starting PagoApplication using Java 17.0.12 with PID 26940 (D:\upeu\cafe-final\cafe-SpringBoot\services\pago\target\classes started by LENOVO in D:\upeu\cafe-final\cafe-SpringBoot\services\pago)
+2026-05-23 17:10:12.731 [] DEBUG cafeteria.pago.pago.PagoApplication - Running with Spring Boot v3.5.12, Spring v6.2.17
+2026-05-23 17:10:12.731 [] INFO  cafeteria.pago.pago.PagoApplication - The following 1 profile is active: "dev"
+2026-05-23 17:10:12.782 [] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:7071
+2026-05-23 17:10:12.782 [] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=pago, profiles=[default], label=null, version=null, state=null
+2026-05-23 17:10:12.783 [] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:7071
+2026-05-23 17:10:12.783 [] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=pago, profiles=[dev], label=null, version=null, state=null
+2026-05-23 17:10:14.058 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-23 17:10:14.313 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 243 ms. Found 1 JPA repository interface.
+2026-05-23 17:10:14.932 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4acf4a5d-1e3a-377d-a3cc-07d093681718
+2026-05-23 17:10:16.308 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6060 (http)
+2026-05-23 17:10:16.329 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6060"]
+2026-05-23 17:10:16.338 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-23 17:10:16.338 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-05-23 17:10:16.528 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-23 17:10:16.535 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3749 ms
+2026-05-23 17:10:18.349 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-23 17:10:18.431 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-23 17:10:18.783 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e89e527
+2026-05-23 17:10:18.790 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-23 17:10:20.766 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-23 17:10:21.872 [] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-23 17:10:26.093 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 6 endpoints beneath base path '/actuator'
+2026-05-23 17:10:26.968 [] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-05-23 17:10:27.231 [] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-23 17:10:27.454 [] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-05-23 17:10:27.498 [] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-05-23 17:10:27.508 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:10:27.537 [] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-05-23 17:10:27.538 [] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-05-23 17:10:28.158 [] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-05-23 17:10:28.158 [] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-05-23 17:10:28.168 [] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-23 17:10:28.171 [] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1779574228171 with initial instances count: 4
+2026-05-23 17:10:28.202 [] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PAGO with eureka with status UP
+2026-05-23 17:10:28.203 [] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1779574228203, current=UP, previous=STARTING]
+2026-05-23 17:10:28.206 [] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAGO/DESKTOP-CEUCT1P:pago:6060: registering service...
+2026-05-23 17:10:28.206 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6060"]
+2026-05-23 17:10:28.253 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6060 (http) with context path '/'
+2026-05-23 17:10:28.255 [] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 6060
+2026-05-23 17:10:28.282 [] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAGO/DESKTOP-CEUCT1P:pago:6060 - registration status: 204
+2026-05-23 17:10:28.593 [] INFO  cafeteria.pago.pago.PagoApplication - Started PagoApplication in 17.022 seconds (process running for 17.518)
+2026-05-23 17:10:28.667 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-23 17:10:28.668 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-23 17:11:11.955 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-23 17:11:11.955 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-23 17:11:11.959 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-05-23 17:15:27.549 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:20:27.559 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:25:27.574 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:30:27.585 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:35:27.614 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:40:27.643 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:45:27.650 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:50:27.663 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 17:55:27.673 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:00:27.679 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:05:27.681 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:10:27.695 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:15:27.710 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:20:27.722 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:25:27.727 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:30:27.733 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:35:27.755 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:40:27.767 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:45:27.790 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:50:27.819 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 18:55:27.825 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:00:27.836 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:05:27.839 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:10:27.858 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:15:27.877 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:20:27.885 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:25:27.895 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:30:27.903 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:35:27.917 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:40:27.940 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:45:27.953 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:50:27.956 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 19:55:27.964 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:00:27.987 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:05:28.011 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:10:28.022 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:15:28.030 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:20:28.088 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:25:28.124 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:30:28.144 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:35:28.182 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:40:28.209 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:45:28.218 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:50:28.227 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 20:55:28.272 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:00:28.287 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:05:28.306 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:10:28.318 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:15:28.331 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:20:28.340 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:25:28.351 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:30:28.381 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:35:28.424 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:40:28.436 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:45:28.444 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:50:28.449 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 21:55:28.463 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:00:28.488 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:05:28.546 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:10:28.547 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:15:28.564 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:20:28.574 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:25:28.598 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:30:28.618 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:35:28.640 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:40:28.643 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:45:28.659 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:50:28.673 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 22:55:28.690 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:00:28.709 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:05:28.714 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:10:28.742 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:15:28.753 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:20:28.783 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:25:28.830 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:30:28.850 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:35:28.882 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:40:13.702 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:45:13.715 [] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-05-23 23:49:32.287 [] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PAGO with eureka with status DOWN
+2026-05-23 23:49:32.287 [] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1779598172287, current=DOWN, previous=UP]
+2026-05-23 23:49:32.287 [] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAGO/DESKTOP-CEUCT1P:pago:6060: registering service...
+2026-05-23 23:49:32.339 [] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAGO/DESKTOP-CEUCT1P:pago:6060 - registration status: 204
+2026-05-23 23:49:32.390 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-23 23:49:32.635 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-23 23:49:32.674 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-23 23:49:32.712 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-23 23:49:32.722 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-23 23:49:32.726 [] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-05-23 23:49:35.731 [] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-05-23 23:49:35.776 [] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAGO/DESKTOP-CEUCT1P:pago:6060 - deregister  status: 200
+2026-05-23 23:49:35.776 [] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
