@@ -1,0 +1,52 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets:
+          - localhost:9090
+
+  - job_name: gateway
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - gateway:7091
+
+  - job_name: producto
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - producto:9092
+
+  - job_name: catalogo
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - catalogo:8082
+
+  # --- Siguientes microservicios para que Grafana los consulte (PROD) ---
+  - job_name: auth
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - auth:8042
+
+  - job_name: pago
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - pago:6061
+
+  - job_name: pedido
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - pedido:9096
+
+  - job_name: reportes
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets:
+          - reportes:9071
