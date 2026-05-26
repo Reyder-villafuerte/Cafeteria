@@ -279,7 +279,7 @@ Este `README` documenta la capacidad operativa e integracion.
 La guia paso a paso para clase y evaluacion se mantiene aparte en:
 
 - [SESION-06.P2-OBSERVABILIDAD.md](C:/ms1/ProyectosMS2026/infra/SESION-06.P2-OBSERVABILIDAD.md)
-- [SESION-07-OBSERVABILIDAD-CON-HERRAMIENTAS.md](C:/ms1/ProyectosMS2026/observability/SESION-07-OBSERVABILIDAD-CON-HERRAMIENTAS.md)
+- [SESION-07-OBSERVABILIDAD-CON-HERRAMIENTAS.md](../observability/SESION-07-OBSERVABILIDAD-CON-HERRAMIENTAS.md)
 
 La observabilidad con herramientas ya no vive dentro de `infra`.
 
